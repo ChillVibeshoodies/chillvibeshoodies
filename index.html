@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entdecke die neuesten Hoodies von ChillVibes – Mode für entspannte Momente.">
+    <meta name="author" content="ChillVibes Hoodies">
+    <title>ChillVibes Hoodies</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            position: sticky;
+            top: 0;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 25px;
+            margin: 0 15px;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            background-color: #666;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x600'); /* Hier dein Banner-Bild einfügen */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 150px 0;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 40px;
+        }
+
+        .cta-button {
+            padding: 12px 30px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #218838;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+            background-color: #fff;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            width: 250px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 8px;
+            max-height: 300px;
+            object-fit: cover;
+        }
+
+        .product-card h3 {
+            margin: 15px 0;
+            font-size: 1.4rem;
+        }
+
+        .product-card p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            font-size: 1.2rem;
+        }
+
+        .contact-form {
+            padding: 40px 20px;
+            background-color: #f7f7f7;
+        }
+
+        .contact-form h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .contact-form button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>ChillVibes Hoodies</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Über uns</a>
+        <a href="#shop">Shop</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h2>Die besten Hoodies für entspannte Momente</h2>
+        <p>Entdecke die neuesten Styles für jeden Tag. Komfort trifft auf Style – genau das, was du brauchst.</p>
+        <a href="#shop" class="cta-button">Jetzt Shoppen</a>
+    </section>
+
+    <!-- Products Section -->
+    <section id="shop" class="products">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="Hoodie 1">
+            <h3>ChillVibes Hoodie 1</h3>
+            <p>Ein Hoodie, der deinen entspannten Lifestyle widerspiegelt.</p>
+            <a href="#" class="cta-button">In den Warenkorb</a>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="Hoodie 2">
+            <h3>ChillVibes Hoodie 2</h3>
+            <p>Perfekt für den Alltag – weicher Stoff und cooler Look.</p>
+            <a href="#" class="cta-button">In den Warenkorb</a>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="Hoodie 3">
+            <h3>ChillVibes Hoodie 3</h3>
+            <p>Der Hoodie für dein nächstes Abenteuer – immer bequem und stylisch.</p>
+            <a href="#" class="cta-button">In den Warenkorb</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-form">
+        <h2>Kontaktiere uns</h2>
+        <form>
+            <input type="text" name="name" placeholder="Dein Name" required>
+            <input type="email" name="email" placeholder="Deine E-Mail" required>
+            <textarea name="message" rows="4" placeholder="Nachricht" required></textarea>
+            <button type="submit">Absenden</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 ChillVibes Hoodies. Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+</html>
+
